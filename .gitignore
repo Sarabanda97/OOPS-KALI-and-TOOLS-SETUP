@@ -1,0 +1,25 @@
+# Assessment material must not be committed
+results/
+evidence/
+*.har
+*.pcap
+*.pcapng
+
+# Secrets / local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+kubeconfig
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
